@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+body{
+    background-color: #85FFBD;
+background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+}
+
+/*feature card styles */
+.feature-card{
+    transition: all .2s linear;
+}
+.feature-card:hover{
+    background-color: #85FFBD;
+    transform: translateY(-5px);
+}
+
+
+/* model box styles */
+.demo-app-btn{
+    width: 100px;
+    transform: rotate(90deg);
+    position: fixed;
+    right:0px;
+    bottom: 400px;
+    z-index: 100;
+}
+
+.carousel-item> img{
+width: 100%;
+height: 300px;
+}
+
+.card-primum{
+    background-color: #85FFBD;
+    background-image: linear-gradient(90deg, #85FFBD 0%, #FFFB7D 100%);
+    
+
+}
+.getinTouch{
+    background: rgb(2,0,36);
+
+}
+.pricing-banner,.contact-banner{
+    width: 100%;
+    height: 250px;
+}
+.scrollspy-example {
+    height: 400px;  
+    overflow-Y: scroll;  
+    scroll-behavior: smooth;
+  }
+
+  
+  .scrollspy-example::-webkit-scrollbar {
+    width: 10px;             
+  }
+
+  .scrollspy-example::-webkit-scrollbar-thumb {
+    background-color: #e5ff00e0; 
+    border-radius: 10px;
+  }
+
+  .scrollspy-example::-webkit-scrollbar-track {
+    background-color: #fc0909; 
+  }
