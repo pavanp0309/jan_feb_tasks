@@ -1,16 +1,16 @@
 //Arithmetic Operators
-// let a = parseInt(prompt("Enter a value: "))
-// let b = parseInt(prompt("Enter b value: "))
-// let add = a+b;
-// console.log("sum of a and b is "+add);
-// let sub = a-b;
-// console.log("Subtraction of a and b is "+add);
-// let mul = a*b;
-// console.log("Product of a and b is "+mul);
-// let div = a/b;
-// console.log("division of a and b is "+div);
-// let moduloDiv = a%b;
-// console.log("division of a and b is "+moduloDiv);
+let a = parseInt(prompt("Enter a value: "))
+let b = parseInt(prompt("Enter b value: "))
+let add = a+b;
+console.log("sum of a and b is "+add);
+let sub = a-b;
+console.log("Subtraction of a and b is "+add);
+let mul = a*b;
+console.log("Product of a and b is "+mul);
+let div = a/b;
+console.log("division of a and b is "+div);
+let moduloDiv = a%b;
+console.log("division of a and b is "+moduloDiv);
 
 // //Q2
 // let x = 10;
