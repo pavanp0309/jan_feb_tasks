@@ -6,17 +6,17 @@
 //  not 18 give another feedback stating to wait for the number of
 //  years he needs to turn 18.
 
-        let age=parseInt(prompt("Enter your age:"))
-        function eligibilityCheck(age){
-            if(age>=18){
-                console.log("You are old enough to drive")
-            } else{
-                let no_of_turns = 18 - age
-                console.log("wait for " + no_of_turns + " years to turn 18")
-            }
-        }
+        // let age=parseInt(prompt("Enter your age:"))
+        // function eligibilityCheck(age){
+        //     if(age>=18){
+        //         console.log("You are old enough to drive")
+        //     } else{
+        //         let no_of_turns = 18 - age
+        //         console.log("wait for " + no_of_turns + " years to turn 18")
+        //     }
+        // }
 
-        eligibilityCheck(age)
+        // eligibilityCheck(age)
 
 
 //  2. Compare the values of myAge and yourAge using if … else. Based on
@@ -59,9 +59,9 @@
         // positiveOrNegative(-8)
 
 //  5. Check if a number is even or odd
-        // let n1
+        // let n
         // function isEven(n){
-        //         if(n1%2 ==0) {
+        //         if(n%2 ==0) {
         //                 console.log("given number is an even number");
         //         } else{
         //                 console.log("the given number is an odd number")
@@ -87,20 +87,20 @@
 
 //  7. Determine the grade based on a score.
         // let score
-        // let messsage
+        // let message
         // function checkRanks(score){
         //         if(score>=80) {
-        //                 messsage = "you get first rank";
+        //                 message = "you get first rank";
         //         } else if(score>=70) {
-        //                 messsage = "you get second rank";
+        //                 message = "you get second rank";
         //         }else if(score>=50) {
-        //                 messsage = "you get third rank";
+        //                 message = "you get third rank";
         //         } else {
-        //                 messsage = "Try hard you are failed"
+        //                 message = "Try hard you are failed"
         //         }
         // }
         // checkRanks(70)
-        // console.log(messsage)
+        // console.log(message)
 
 //  8. Determine the type of triangle (equilateral, isosceles, or scalene)
         // let side1
@@ -190,7 +190,7 @@
 //  50-59, D
 //  0-49, F
         // let score
-        // function studentsGrading(scores) {
+        // function studentsGrading(score) {
         //     if(score>=80){
         //         console.log("Grade is A")
         //     } else if(score >=70) {
