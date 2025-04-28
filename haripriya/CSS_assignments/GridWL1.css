@@ -1,0 +1,44 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+.container{
+    display: grid;
+    gap:2px;
+    grid-template-columns:20% 70% 10%;
+    grid-template-rows:20vh 60vh 20vh;
+    grid-template-areas:
+    "h h h"
+    "n a ad"
+    "n f f"
+    ;
+}
+
+.child{
+    background-color:pink;
+    border:2px solid blue;
+    padding:1.5rem;
+}
+
+.header{
+    grid-area:h;
+}
+
+.sidenav{
+    grid-area:n
+}
+
+.article{
+    grid-area:a;
+}
+
+.ads{
+    grid-area:ad
+}
+
+.footer{
+  
+    grid-area:f;
+}

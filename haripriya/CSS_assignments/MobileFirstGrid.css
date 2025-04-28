@@ -1,0 +1,68 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: block; 
+    padding: 10px;
+}
+
+.card {
+    background-color: pink;
+    color: white;
+    font-weight: bold;
+    padding: 1.5rem;
+    border: 2px solid brown;
+    text-align: center;
+    margin-bottom: 10px; 
+}
+
+/* Media Query for screens above 576px */
+@media (min-width: 576px) {
+    .container {
+        display: grid;
+        gap: 5px;
+        grid-template-columns: repeat(12, 7.9%);
+        grid-template-rows: repeat(6, 10vh);
+        grid-template-areas:
+            "a a a a a a a a a a a a"
+            "b b b b b b c c c c c c"
+            "d d d d e e e e f f f f"
+            "g g g h h h i i i j j j"
+            "k k l l m m n n o o p p"
+            "q r s t u v w x y z a1 a2";
+    }
+
+    /* Keep the grid card definitions for larger screens */
+    .card-1 { grid-area: a; }
+    .card-2 { grid-area: b; }
+    .card-3 { grid-area: c; }
+    .card-4 { grid-area: d; }
+    .card-5 { grid-area: e; }
+    .card-6 { grid-area: f; }
+    .card-7 { grid-area: g; }
+    .card-8 { grid-area: h; }
+    .card-9 { grid-area: i; }
+    .card-10 { grid-area: j; }
+    .card-11 { grid-area: k; }
+    .card-12 { grid-area: l; }
+    .card-13 { grid-area: m; }
+    .card-14 { grid-area: n; }
+    .card-15 { grid-area: o; }
+    .card-16 { grid-area: p; }
+    .card-17 { grid-area: q; }
+    .card-18 { grid-area: r; }
+    .card-19 { grid-area: s; }
+    .card-20 { grid-area: t; }
+    .card-21 { grid-area: u; }
+    .card-22 { grid-area: v; }
+    .card-23 { grid-area: w; }
+    .card-24 { grid-area: x; }
+    .card-25 { grid-area: y; }
+    .card-26 { grid-area: z; }
+    .card-27 { grid-area: a1; }
+    .card-28 { grid-area: a2; }
+}
+

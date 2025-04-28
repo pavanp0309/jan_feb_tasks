@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Layout</title>
+    <link rel="stylesheet" href="FormLayout.css">
+</head>
+<body>
+    <form class="myform">
+<fieldset class="customer">
+    <label for="name">Name</label>
+    <input type="text" name="name" id="name">
+    <label for="number">Phone</label>
+    <input type="tel" name="number" id="number">
+    <label for="email">Email</label>
+    <input type="email" name="email" id="email">
+</fieldset>
+<fieldset class="taxi-details">
+    <label for="date-time">Pick-up Date/Time</label>
+    <input type="datetime-local" name="date-time" id="date-time">
+    <label for="place">Pick-up Place</label>
+    <select name="place" id="place">
+        <option value="" disabled selected>Select One</option>
+        <option value="Taxi Office">Taxi Office</option>
+        <option value="Town Hall">Town Hall</option>
+        <option value="We'll Guess!">We'll Guess!</option>
+    </select>
+</fieldset>
+<fieldset class="instructions">
+
+    <label for="instructions">Special Instructions</label>
+    <textarea name="instructions" id="instructions"></textarea>
+</fieldset>
+<fieldset class="taxi">
+    <label for="taxi">Which Taxi do you require?</label>
+    <label for="car"> 
+        <input type="radio" name="taxi" id="car" value="Car">
+        Car
+    </label>
+    
+    <label for="van">
+        <input type="radio" name="taxi" id="van" value="Van">
+        Van
+    </label>
+    
+    <label for="tuktuk">
+        <input type="radio" name="taxi" id="tuktuk" value="Tuk-tuk">
+        Tuk-tuk
+    </label>
+    
+</fieldset>
+<fieldset class="extras">
+    <label for="extras">Extras</label>
+    <label for="baby-seat">
+        <input type="checkbox" name="extras" id="baby-seat" value="Baby-Seat">
+        Baby-Seat
+    </label>
+    
+    <label for="whhelchair">
+        <input type="checkbox" name="extras" id="wheelchair" value="wheelchair">
+        Wheelchair Access
+    </label>
+    
+    <label for="stocktip">
+        <input type="checkbox" name="extras" id="stocktip" value="Stock-tip">
+        Stock-tip
+    </label>
+    
+</fieldset>
+<fieldset class="dropoff">
+    <label for="dropoff">Drop-off Place</label>
+    <select name="dropoff" id="dropoff">
+        <option value="Airport">Airport</option>
+        <option value="Beach">Beach</option>
+        <option value="Fred Flinstone's House">Fred Flinstone's House</option>
+    </select>
+</fieldset>
+    <input type="submit" value="Submit-Booking" class="submit">
+
+    </form>
+</body>
+</html>

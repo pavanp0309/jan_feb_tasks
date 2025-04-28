@@ -1,0 +1,64 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+.container{
+    display:grid;
+    gap:5px;
+    grid-template-columns: 25% 20% 25% 30%;
+    grid-template-rows: repeat(4, 25vh);
+    grid-template-areas:
+    "a a a a"
+    "b c d e"
+    "b f g e"
+    "b f h i"
+    ;
+
+}
+
+.child{
+    background-color:pink;
+    color:blue;
+    font-size:30px;
+    font-weight:bold;
+    padding:1.5rem;
+    border:2px solid brown;
+}
+
+.card-1{
+    grid-area:a;
+}
+
+.card-2{
+    grid-area:b;
+}
+
+.card-3{
+    grid-area:c;
+}
+
+.card-4{
+    grid-area:d;
+}
+
+.card-5{
+    grid-area:e;
+}
+
+.card-6{
+    grid-area:f;
+}
+
+.card-7{
+    grid-area:g;
+}
+
+.card-8{
+    grid-area:h;
+}
+
+.card-9{
+    grid-area:i;
+}
