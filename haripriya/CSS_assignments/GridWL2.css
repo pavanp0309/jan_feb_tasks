@@ -1,0 +1,71 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+/* parent element stylings */
+.container{
+display:grid;
+gap:10px;
+grid-template-columns: 20% 30% 20% 30%;
+grid-template-rows: 20vh 20vh 20vh 20vh 20vh;
+grid-template-areas: 
+"a a a a"
+"b c d d"
+"b e e f"
+"b g h i"
+"b j j j"
+;
+}
+
+/* common stylings */
+.card{
+background-color:pink;
+padding:1.5rem;
+color:white;
+font-size:30px;
+font-weight:bold;
+}
+
+
+/* child element stylings */
+.card-1{
+grid-area:a;
+}
+
+.card-2{
+grid-area:b;
+}
+
+.card-3{
+grid-area:c;
+}
+
+.card-4{
+    grid-area:d;
+}
+
+.card-5{
+    grid-area:e;
+}
+
+.card-6{
+    grid-area:f;
+}
+
+.card-7{
+    grid-area:g;
+}
+
+.card-8{
+    grid-area:h;
+}
+
+.card-9{
+    grid-area:i;
+}
+
+.card-10{
+    grid-area:j;
+}

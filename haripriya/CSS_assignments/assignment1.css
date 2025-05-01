@@ -1,0 +1,26 @@
+body{
+    background-image:url('../assets/fireworks-image.webp');
+    background-size:cover;
+    background-repeat:no-repeat;
+    color:white;
+    text-align:center;
+    margin-top:50px;
+    
+    
+}
+
+h1{
+    
+text-transform:uppercase;
+display:inline-block
+}
+
+#content{
+    width:245px;
+    margin-left:550px;
+    
+    
+}
+
+
+

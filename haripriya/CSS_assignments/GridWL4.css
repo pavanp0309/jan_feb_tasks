@@ -1,0 +1,44 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+.container{
+display:grid;
+gap:5px;
+grid-template-columns: 60% 20% 20%;
+grid-template-rows:20vh 65vh 15vh;
+grid-template-areas:
+"h h h"
+"a n ad"
+"f n ad"
+;
+}
+
+.card{
+background-color:pink;
+color:blue;
+padding:1.5rem;
+font-weight:bold;
+}
+
+.card-1{
+    grid-area:h;
+}
+
+.card-2{
+    grid-area:a;
+}
+
+.card-3{
+    grid-area:n;
+}
+
+.card-4{
+    grid-area:ad;
+}
+
+.card-5{
+    grid-area:f;
+}

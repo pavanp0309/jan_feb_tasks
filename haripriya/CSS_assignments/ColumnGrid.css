@@ -1,0 +1,146 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.container{
+display: grid;
+gap:5px;
+grid-template-columns:20% 20% 20% 10% 10% 20%;
+grid-template-rows:repeat(12, 8vh);
+grid-template-areas:
+"a b d g k q"
+"a b d g k r"
+"a b d g l s"
+"a b d h l t"
+"a b e h m u"
+"a b e h m v"
+"a c e i n w"
+"a c e i n x"
+"a c f i o y"
+"a c f j o z"
+"a c f j p a1"
+"a c f j p a2"
+;
+}
+
+.card{
+background-color:pink;
+color:white;
+font-weight:bold;
+padding:1.5rem;
+border:2px solid brown;
+}
+
+.card-1{
+    grid-area:a;
+}
+
+.card-2{
+    grid-area:b;
+}
+
+.card-3{
+    grid-area:c;
+}
+
+.card-4{
+    grid-area:d;
+}
+
+.card-5{
+    grid-area:e;
+}
+
+.card-6{
+    grid-area:f;
+}
+
+.card-7{
+    grid-area:g;
+}
+
+.card-8{
+    grid-area:h;
+}
+
+.card-9{
+    grid-area:i;
+}
+
+.card-10{
+    grid-area:j;
+}
+
+.card-11{
+    grid-area:k;
+}
+
+.card-12{
+    grid-area:l;
+}
+
+.card-13{
+    grid-area:m;
+}
+
+.card-14{
+    grid-area:n;
+}
+
+.card-15{
+    grid-area:o;
+}
+
+.card-16{
+    grid-area:p;
+}
+
+.card-17{
+    grid-area:q;
+}
+
+.card-18{
+    grid-area:r;
+}
+
+.card-19{
+    grid-area:s;
+}
+
+.card-20{
+    grid-area:t;
+}
+
+.card-21{
+    grid-area:u;
+}
+
+.card-22{
+    grid-area:v;
+}
+
+.card-23{
+    grid-area:w;
+}
+
+.card-24{
+    grid-area:x;
+}
+
+.card-25{
+    grid-area:y;
+}
+
+.card-26{
+    grid-area:z;
+}
+
+.card-27{
+    grid-area:a1;
+}
+
+.card-28{
+    grid-area:a2;
+}

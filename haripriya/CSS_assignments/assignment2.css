@@ -1,0 +1,29 @@
+body{
+    background-color: #ffff00;
+}
+.parent{
+    height:500px;
+    width:500px;
+    border-radius: 30px;;
+    background-image:url(../assets/mountain-img.jpg);
+   background-size: cover;
+   position: absolute;
+   top: 100px;
+   left:500px;
+   
+
+
+   
+}
+
+#content{
+    font-size:50px;
+    color:white;
+    height:200px;
+    width:200px;
+    position:absolute;
+    top:200px;
+    left:175px;
+    
+
+}

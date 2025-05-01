@@ -1,0 +1,132 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: darkred;
+}
+
+.card{
+    width:400px;
+    height:90vh;
+    border:2px solid palevioletred;
+    border-radius: 5%;
+    /* margin:10px;
+    padding:10px; */
+    position:relative;
+    top:30px;
+    left:70vh;
+    background-color: palevioletred;
+}
+.header{
+  width:100%;
+  height:150px;
+  /* border:2px solid white; 
+  border-radius:10%;
+  background-image: url(../assets/Antimage.jpg); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100% 80%; */
+}
+
+.ant{
+width:100%;
+height:100%;
+border-radius: 12%;
+}
+
+.image-section{
+    border:2px solid black;
+    width:110px;
+    border-radius:50%;
+    background-color: white;
+    position:relative;
+    top:-50px;
+    left:150px;
+}
+
+img{
+   width:100px;
+  
+}
+h1{
+    color:white;
+    position:absolute;
+    left:90px;
+}
+
+.profile-section{
+    position:relative;
+}
+
+.bi{
+    position:absolute;
+    left:330px;
+    top:-80px;
+    font-size: 30px;
+}
+
+h5{
+    position:absolute;
+    top:50px;
+    left:140px;
+    font-size:20px;
+}
+
+.f1{
+position:absolute;
+top:80px;
+left:100px;
+}
+
+.fo1{
+    position:absolute;
+    top:100px;
+    left:80px;
+    color:white;
+}
+
+.f2{
+    position:absolute;
+    top:80px;
+    left:250px;
+}
+
+.fo2{
+    position:absolute;
+    top:100px;
+    left:230px;
+    color:white;
+}
+
+.btn{
+    position:absolute;
+    top:140px;
+    left:25px;
+    font-size: 20px;
+    border-radius:30px;
+    padding:10px;
+    background-color: darkred;
+    border:2px solid white;
+    width:350px;
+}
+
+.btn-txt{
+    font-size:20px;
+    padding:20px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:white;
+    text-transform: capitalize;
+}
+
+.footer{
+    position:absolute;
+    bottom:30px;
+    left:30px;
+    width:380px;
+    font-family: 'Courier New', Courier, monospace;
+    color:black;
+}

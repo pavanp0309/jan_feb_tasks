@@ -1,0 +1,77 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.myform{
+    display:grid;
+    grid-template-columns: 50% 50%;
+  grid-template-rows: auto auto auto auto;
+  grid-template-areas: 
+  "customer taxi"
+  "customer extras"
+  "taxiDet dropoff"
+  "instruc instruc"
+  "submit submit"
+  ;
+  gap:30px;
+  background-color: lightpink;
+}
+
+.myform label{
+    display:block;
+}
+.customer{
+grid-area:customer;
+}
+
+.taxi-details{
+grid-area:taxiDet;
+}
+
+.instructions{
+grid-area:instruc;
+}
+
+.taxi{
+grid-area:taxi;
+}
+
+.extras{
+grid-area:extras;
+}
+
+.dropoff{
+grid-area:dropoff;
+}
+
+.submit{
+grid-area:submit;
+background-color: gray;
+height:50px;
+}
+
+.myform textarea{
+    width:100%;
+    height:50px;
+}
+
+.customer input{
+    width:75%;
+    height:45px;
+}
+
+.taxi-details input{
+    width:75%;
+    height:45px;
+}
+.taxi-details select{
+    width:75%;
+    height:45px;
+}
+
+.dropoff select{
+    width:75%;
+    height:45px;
+}
