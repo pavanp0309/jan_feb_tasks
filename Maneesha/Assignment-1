@@ -1,0 +1,78 @@
+//1. Create a variable add, and assign it the sum of a and b.
+//Ans:
+// let a=parseInt(prompt("enter a number"))
+// let b=parseInt(prompt("enter b number"))
+// let add=a+b
+// console.log(add)
+
+
+
+
+// // //2. Create a variable sub, and assign it result of b subtracted from a .
+// // //Ans:
+// let a1=parseInt(prompt("enter a1 number"))
+// let b1=parseInt(prompt("enter b1 number"))
+// let sub=a1-b1
+// console.log(sub)
+
+
+
+// // //3. Create a variable mul, and assign it the product of a and b .
+// // //Ans:
+// let a2=parseInt(prompt("enter a2 number"))
+// let b2=parseInt(prompt("enter b2 number"))
+// let mul=a2*b2
+// console.log(mul)
+
+
+
+// // //4. Create a variable div, and assign it the result of a divided by b .
+// // //Ans:
+// let a3=parseInt(prompt("enter a3 number"))
+// let b3=parseInt(prompt("enter b3 number"))
+// let div= a3/b3
+// console.log(div)
+
+
+// // //5. Create a variable, inc, and assign it the pre-incremented value of a
+// // //Ans:
+// let a4=parseInt(prompt("enter a4 number"))
+// let inc=++a4
+// console.log(inc)
+
+
+
+// // //6. Create a variable dec, and assign it the pre-decremented value of b
+// // //Ans:
+// let b4=parseInt(prompt("enter b4 number"))
+// let dec=--b4
+// console.log(dec)
+
+
+
+
+
+
+// Write a JavaScript code to calculate and print the power of 2 raised to the 3rd
+// power.
+// const result = 2 ** 3;
+// console.log(result); // Output: 8
+
+
+// Write a JavaScript code to calculate and print area of triangle, rectangle, circle,
+// Square. Take input from the users.
+// area of triangle=1/2*base*height
+// let base=parseInt(prompt("enter the base of a triangle"))
+// let height=parseInt(prompt("enter the height of triange"))
+// let area =0.5*base*height
+// console.log("area of triangle is",area)
+
+// let length=parseInt(prompt("enter the length of a triangle"))
+// let width=parseInt(prompt("enter the width of a triangle"))
+// let area=length*width
+//  console.log( "area of a triangle:",area)
+
+let radius=6
+let area=22/7*radius*radius
+console.log("radius of a circle:",area)
+
